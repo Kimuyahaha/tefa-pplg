@@ -1,24 +1,19 @@
 {
   "$schema": "https://schema.railpack.com",
-  "packages": {
-    "apt": [],
-    "php": {
-      "extensions": [
-        "bcmath",
-        "ctype",
-        "curl",
-        "dom",
-        "fileinfo",
-        "filter",
-        "hash",
-        "mbstring",
-        "openssl",
-        "pdo",
-        "pdo_mysql",
-        "session",
-        "tokenizer",
-        "xml"
-      ]
-    }
-  }
+  "phpExtensions": [
+    "bcmath",
+    "ctype",
+    "curl",
+    "dom",
+    "fileinfo",
+    "filter",
+    "hash",
+    "mbstring",
+    "openssl",
+    "pdo",
+    "pdo_mysql",
+    "session",
+    "tokenizer",
+    "xml"
+  ]
 }
